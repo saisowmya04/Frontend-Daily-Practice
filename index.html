@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container1">
+
+            <h1>Event Registration</h1>
+        </div>
+
+        <div class="container2">
+
+            <form onsubmit="registration(event)">
+                <h2>Name</h2><br>
+                <input type="text" placeholder="Enter First Name" id="fname">
+                <input type="text" placeholder="Enter Last Name" id="lname">
+                <h2>Email</h2>
+                <input type="email" placeholder="Enter your email" id="email">
+                <h2>Password</h2>
+                <input type="password" placeholder="Enter your password" id="password">
+                <h2>Confirm Password</h2>
+                <input type="cPassword" placeholder="Re-enter your password" id="cPassword">
+                <h2>Number</h2>
+                <input type="number" placeholder="Enter your phone number" id="number"><br><br>
+                <h2>Events</h2>
+                <select name="event">
+                    <option>Select</option>
+                    <option>Singing</option>
+                    <option>Dancing</option>
+                    <option>Painting</option>
+                    <option>Crafting</option>
+                    <option>Costume Styling</option>
+                    <option>Ankering</option>
+
+                </select><br><br>
+
+                <input type="submit" class="my-button" value="Register">
+            </form>
+
+
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
